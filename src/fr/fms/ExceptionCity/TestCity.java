@@ -1,4 +1,4 @@
-package fr.fms.ExceptionCity;
+package fr.fms.ExceptionCity; // try/catch l.10
 
 public class TestCity {
 

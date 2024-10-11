@@ -1,4 +1,4 @@
-package fr.fms.ExceptionCity; //1.2
+package fr.fms.ExceptionCity; //1.2 (throw new l.39)
 
 public class City { 
 
@@ -6,7 +6,7 @@ public class City {
 	private String country;
 	private int nbInhabitants;
 	
-	public City (String name, String country, int nbInhabitants) { //1.1
+	public City (String name, String country, int nbInhabitants) { 
 		this.name = name;
 		this.country = country;
 		this.nbInhabitants = nbInhabitants;
@@ -41,7 +41,7 @@ public class City {
 	}
 	
 	public String toString(){
-		return "name: " + getName() + "\t" +  //1.2
+		return "name: " + getName() + "\t" +  
 		"country: " + getCountry() + "\t" +
 		"population: " + getNbInhabitants();
 	}
